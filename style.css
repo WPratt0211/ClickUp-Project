@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --font-light: #4B5D68;
+    --font-dark: #212353;
+    --deco-purple: #9C69E2;
+    --deco-pink: #F063B8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.rectangle-32 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 240px;
+    top: 74px;
+    background: var(--deco-purple);
+    border-radius: 20px;
+}
+
+.rectangle-33 {
+    position: absolute;
+    width: 20px;
+    height: 35px;
+    left: 269px;
+    top: 59px;
+    background: var(--deco-pink);
+    border-radius: 20px;
+}
+
+.about {
+    position: absolute;
+    width: 53px;
+    height: 30px;
+    left: 410px;
+    top: 62px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--font-dark);
+}
+
+.help {
+    position: absolute;
+    width: 35px;
+    height: 26px;
+    left: 503px;
+    top: 64px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--font-light);
+}
+
+.features {
+    position: absolute;
+    width: 63px;
+    height: 26px;
+    left: 578px;
+    top: 64px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--font-light);
+}
+
+.signup {
+    position: absolute;
+    width: 51px;
+    height: 26px;
+    left: 681px;
+    top: 64px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--font-light);
+}
+
+.demo { 
+    /* Need to fix text & shadow & add arrow in btn */
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: 1150px;
+    top: 47px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+}
+
+
+h1 {
+    position: absolute;
+    width: 645px;
+    height: 184px;
+    left: 240px;
+    top: 237px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: var(--font-dark);
+}
+
+.warehouse {
+    position: absolute;
+    width: 380px;
+    height: 120px;
+    left: 240px;
+    top: 471px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--font-light);
+}
+
+.learn {
+    /* Need to fix text & shadow in btn */
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 240px;
+    top: 641px;
+    background: #9C69E2;
+    border-radius: 50px;
+}
+
+.rectangle-34 {
+    position: absolute;
+    width: 1117px;
+    height: 560px;
+    left: 240px;
+    top: 903.18px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+}
+
+h2 {
+    position: absolute;
+    width: 475px;
+    height: 100px;
+    left: 790px;
+    top: 1028.18px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: var(--font-dark);
+}
+
+.rec-34 {
+    position: absolute;
+    width: 474px;
+    height: 170px;
+    left: 790px;
+    top: 1168.18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--font-light);
+}
+
+h3 {
+    position: absolute;
+    width: 405px;
+    height: 52px;
+    left: 596.29px;
+    top: 1613px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--font-dark);
+}
+
+.feat-p {
+    position: absolute;
+    width: 584px;
+    height: 58px;
+    left: 507.29px;
+    top: 1715px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--font-light);
+}
+
+.rectangle-39 {
+    position: absolute;
+    width: 442px;
+    height: 358px;
+    left: 328.29px;
+    top: 1873px;
+    background: #68C9BA;
+    opacity: 0.1;
+    border-radius: 50px;
+}
+
+.vector-56 {
+    /* Need to fix shape */
+    position: absolute;
+    width: 203.82px;
+    height: 118.6px;
+    left: 674.41px;
+    top: 2070.99px;
+    border: 1.5px solid #FFFFFF;
+    transform: rotate(-135deg);
+}
+
+.ellipse-61 {
+    /* Need to fix shape */
+    position: absolute;
+    width: 33.7px;
+    height: 19.91px;
+    left: 621.4px;
+    top: 1916.88px;
+    border: 1.5px solid #FFFFFF;
+    transform: rotate(20.72deg);
+}
+
+.search-data {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 500.29px;
+    top: 1922px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: var(--font-dark);
+}
+
+.rec-39 {
+    position: absolute;
+    width: 220px;
+    height: 160px;
+    left: 500.29px;
+    top: 1992px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.learn-39 {
+    /* Need to add empty link and arrow and line up text */
+    position: absolute;
+    width: 87px;
+    height: 26px;
+    left: 500.29px;
+    top: 2172px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: var(--font-dark);
+}
+
+.rectangle-39-2 {
+    position: absolute;
+    width: 442px;
+    height: 358px;
+    left: 915.28px;
+    top: 1873px;
+    background: #9C69E2;
+    opacity: 0.1;
+    border-radius: 20px;
+}
+
+.vector-56-2 {
+    /* Need to fix shape */
+    position: absolute;
+    width: 222.22px;
+    height: 129.3px;
+    left: 1199.72px;
+    top: 2019px;
+    border: 1.5px solid #FFFFFF;
+    transform: rotate(45deg);
+}
+
+.hours {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 1087.28px;
+    top: 1922px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: var(--font-dark);
+}
+
+.rec-39-2 {
+    position: absolute;
+    width: 220px;
+    height: 160px;
+    left: 1087.28px;
+    top: 1992px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--font-light);
+}
+
+.learn-39-2 {
+    /* Need to add empy link and arrow and line up text */
+    position: absolute;
+    width: 87px;
+    height: 26px;
+    left: 1087.28px;
+    top: 2172px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: var(--font-dark);
+}
+
+.rectangle-39-3 {
+    position: absolute;
+    width: 442px;
+    height: 358px;
+    left: 328.29px;
+    top: 2281px;
+    background: #F063B8;
+    opacity: 0.1;
+    border-radius: 50px;
+}
+
+.ellipse-61-3 {
+    /* Need to fix shape */
+    position: absolute;
+    width: 68.05px;
+    height: 40.21px;
+    left: 747.33px;
+    top: 2337.83px;
+    border: 1.5px solid #FFFFFF;
+    transform: rotate(150deg);
+}
+
+.print{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 500.29px;
+    top: 2330px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: var(--font-dark); 
+}
+
+.rec-39-3 {
+    position: absolute;
+    width: 220px;
+    height: 160px;
+    left: 500.29px;
+    top: 2400px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--font-light);
+}
+
+.learn-39-3 {
+    /* Need to add empy link and arrow and line up text */
+    position: absolute;
+    width: 87px;
+    height: 26px;
+    left: 500.29px;
+    top: 2580px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: var(--font-dark);
+}
+
+.rectangle-39-4 {
+    position: absolute;
+    width: 442px;
+    height: 358px;
+    left: 915.28px;
+    top: 2281px;
+    background: #2D9CDB;
+    opacity: 0.1;
+    border-radius: 20px;
+}
+
+.vector-56-4 {
+    /* Need to fix shape */
+    position: absolute;
+    width: 323.58px;
+    height: 188.28px;
+    left: 931.28px;
+    top: 2358.75px;
+    border: 1.5px solid #FFFFFF;
+    transform: rotate(-15deg);
+}
+
+.ellipse-61-4 {
+    /* Need to fix shape */
+    position: absolute;
+    width: 61.85px;
+    height: 36.55px;
+    left: 1275.21px;
+    top: 2559px;
+    border: 1.5px solid #FFFFFF;
+    transform: rotate(20.72deg);
+}
+
+.security {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 1087.28px;
+    top: 2330px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: var(--font-dark);
+}
+
+.rec-39-4 {
+    position: absolute;
+    width: 220px;
+    height: 160px;
+    left: 1087.28px;
+    top: 2400px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--font-light);
+}
+
+.learn-39-4 {
+    /* Need to add empy link and arrow and line up text */
+    position: absolute;
+    width: 87px;
+    height: 26px;
+    left: 1087.28px;
+    top: 2580px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: var(--font-dark);
+}
+
+.rectangle-35 {
+    position: absolute;
+    width: 1118px;
+    height: 709px;
+    left: 242px;
+    top: 2789px;
+    background: var(--deco-purple);
+    border-radius: 50px;
+}
+
+.testimonials {
+    position: absolute;
+    width: 405px;
+    height: 52px;
+    left: 335px;
+    top: 2898px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.rec-john {
+    position: absolute;
+    width: 645px;
+    height: 330px;
+    left: 335px;
+    top: 3038px;    
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+}
+
+.john-fang {
+    position: absolute;
+    width: 170px;
+    height: 29px;
+    left: 525px;
+    top: 3118px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: var(--font-dark);
+}
+
+.wordfang {
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    left: 525px;
+    top: 3147px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: var(--deco-purple);
+}
+
+.placeholder-1 {
+    position: absolute;
+    width: 385px;
+    height: 130px;
+    left: 525px;
+    top: 3188px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--font-light);
+}
+
+.rectangle-37 {
+    /* Somehow fix the gradient/colors */
+    position: absolute;
+    width: 400px;
+    height: 330px;
+    left: 1000px;
+    top: 3038px;
+    background: linear-gradient(270deg, var(--deco-purple) 9.75%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid var(--deco-purple);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.jenny-doe {
+    position: absolute;
+    width: 170px;
+    height: 29px;
+    left: 1160px;
+    top: 3113px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+
+ux {
+    position: absolute;
+    width: 82px;
+    height: 22px;
+    left: 1160px;
+    top: 3142px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: var(--deco-purple);
+}
+
+.placeholder-2 {
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    left: 1160px;
+    top: 3183px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--font-light);
+}
+
+.rectangle-36 {
+    position: absolute;
+    width: 400px;
+    height: 330px;
+    left: 1000px;
+    top: 3038px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.1);
+    border-radius: 20px;
+}
+
+.test-vector-74 {
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 1244px;
+    top: 3433px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    transform: rotate(-180deg);     
+}
+
+.test-poly-1 {
+    position: absolute;
+    width: 14px;
+    height: 6px;
+    left: 1204px;
+    top: 3440px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    transform: rotate(-90deg);
+}
+
+.test-vector-74-2 {
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    left: 1264px;
+    top: 3433px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.test-poly-2 {
+    position: absolute;
+    width: 14px;
+    height: 6px;
+    left: 1284px;
+    top: 3426px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    transform: rotate(90deg);
+}
